@@ -1,0 +1,575 @@
+body,
+input,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin: 0;
+  background-color: #000023;
+  padding: 0;
+  overflow-x: hidden;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gap20 {
+  gap: 20px;
+}
+.sectionHead {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.sectionSubhead {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+.primaryButton {
+  padding: 20px;
+  color: #000033;
+  background-color: #14a87d;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #14a87d;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.secondaryButton {
+  padding: 20px;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border: 1px solid white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #18183a;
+  padding: 10px 100px;
+}
+
+.navbarHead {
+  gap: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #14a87d;
+}
+
+.mainPage {
+  background-image: url("./assets/mainBg.svg");
+  height: 100vh;
+  width: 100vw;
+  background-color: #000023;
+  padding-bottom: 50px;
+}
+.mainHead {
+  font-size: 56px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+.subHead {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: #14a87d;
+}
+.subHeadSpan {
+  text-decoration: line-through;
+  color: #c2c2c2;
+}
+.listHead {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+}
+ul {
+  list-style-image: url("./assets/CheckCircle.svg");
+  /* gap: 10px; */
+}
+.listItem {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.imageSection {
+  width: 30vw;
+  position: relative;
+}
+.listmainImg {
+  width: 100%;
+}
+.listButtons {
+  justify-content: start;
+}
+.imageProfile {
+  position: absolute;
+  bottom: -20px;
+  border-radius: 10px;
+  background-color: #14a87d;
+  padding: 10px;
+  width: 70%;
+  color: white;
+}
+.profileName {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+.profileExp {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+.-top {
+  margin-top: -50px;
+}
+.periodContainer {
+  width: fit-content;
+  padding: 20px 70px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #ed62fe, #4dc6fe);
+  color: black;
+  gap: 100px;
+}
+.waveinner {
+  border: 1px solid #14a87d;
+  background: #000000bd;
+  color: #14a87d;
+}
+.count {
+  font-size: 56px;
+  font-weight: 600;
+  margin: 0;
+}
+.periodText {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+.period {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.courseMain {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.courseCard {
+  border-radius: 40px;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #ffffff1a;
+  border: 1px solid #2a2a80;
+}
+.webinarSection {
+  justify-content: flex-start;
+}
+
+.webinarList {
+  padding: 60px;
+  background: linear-gradient(to right, #ed62fe, #4dc6fe);
+  z-index: 0;
+  padding-left: 100px;
+}
+
+.webinarContainer li {
+  list-style-image: url("./assets//TrendUp.svg");
+  color: #000033;
+  max-width: 40vw;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.webinarImg {
+  height: 450px;
+  z-index: 1;
+  margin-left: -30px;
+}
+
+.cardText {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 136px;
+  text-align: center;
+}
+.cardtext1 {
+  color: #14a87d;
+}
+.cardImg {
+  height: 80px;
+  width: 80px;
+}
+.waveBg {
+  background-image: url(./assets/wave-shap\ 1.svg);
+  width: 100vw;
+  background-size: cover;
+  aspect-ratio: 4.8/1;
+  margin: 100px 0 100px;
+}
+.trainerDetails {
+  background-color: #150b3d;
+  width: 100%;
+  color: white;
+  position: relative;
+  height: 240px;
+  margin: 100px 0 200px;
+}
+
+.trainerImg {
+  width: 450px;
+}
+.imageDetail {
+  position: absolute;
+  gap: 100px;
+  width: 100%;
+}
+
+/* testimonial  */
+
+.testimonial {
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #ed62fe, #4dc6fe);
+}
+.container {
+  width: 100vw;
+  overflow: hidden;
+}
+.testimonialContainer {
+  width: 150vw;
+  margin-left: -25vw;
+}
+.testimonialLeft,
+.testimonialRight {
+  opacity: 0.3;
+}
+
+.testimonialimg {
+  width: 40%;
+}
+.testimonialData {
+  color: black;
+}
+.testimonialMsg {
+  font-size: 16px;
+  font-weight: 500;
+}
+.userName {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.userPost {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+.contactUsForm {
+  background-color: #150b3d;
+  width: 70vw;
+  padding: 20px;
+  border-radius: 10px;
+}
+.inputHead {
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaaaaa;
+  margin-bottom: 5px;
+}
+.formInput {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  border: 1px solid #3c3361;
+  background-color: transparent;
+  width: calc(100% - 40px);
+  outline: none;
+  padding: 15px;
+}
+.descInput {
+  height: 100px;
+  text-align: start;
+  margin-bottom: 20px;
+}
+.fullWidth,
+.inputContainer {
+  width: 100%;
+}
+.radius0 {
+  border-radius: 0;
+}
+
+/* footer */
+
+.footer {
+  flex-direction: column;
+  background-color: #150b3d;
+  margin-top: 46px;
+  padding: 30px 0 60px;
+  /* height: 60vh; */
+}
+
+.footerInner {
+  width: 80%;
+  gap: 10px;
+  background-color: #211747;
+  padding: 40px;
+}
+
+.footer h3 {
+  color: white;
+}
+.footerInner h3 {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.footerButton {
+  padding: 10px;
+  padding: 15px;
+}
+.footerBottom {
+  justify-content: space-between;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  width: 80%;
+}
+
+@media (max-width: 550px) {
+  .listImg {
+    flex-direction: column;
+  }
+  .gap20 {
+    gap: 10px;
+  }
+  .sectionHead {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  .sectionSubhead {
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  .primaryButton {
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 10px;
+  }
+  .secondaryButton {
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 10px;
+  }
+
+  /* navbar */
+
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .navbarHead {
+    font-size: 18px;
+  }
+
+  .mainPage {
+    height: fit-content;
+    padding-bottom: 120px;
+    padding-top: 20px;
+  }
+  .mainHead {
+    font-size: 30px;
+  }
+  .subHead {
+    font-size: 18px;
+  }
+
+  .listHead {
+    font-size: 18px;
+  }
+
+  .listItem {
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .imageSection {
+    width: 90vw;
+    position: relative;
+  }
+
+  .imageProfile {
+    bottom: -20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+  }
+  .profileName {
+    font-size: 12px;
+  }
+  .profileExp {
+    font-size: 10px;
+    margin: 5px 0;
+  }
+  .-top {
+    margin-top: -30px;
+  }
+  .periodContainer {
+    width: fit-content;
+    padding: 10px 30px;
+    gap: 40px;
+  }
+  .count {
+    font-size: 30px;
+  }
+  .periodText {
+    font-size: 14px;
+  }
+
+  .courseMain {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .courseCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .courseCard {
+    border-radius: 30px;
+    padding: 15px;
+  }
+
+  .webinarList {
+    padding: 30px;
+    padding-bottom: 80px;
+  }
+
+  .webinarContainer li {
+    max-width: 60vw;
+    font-size: 12px;
+  }
+
+  .webinarImg {
+    height: 70%;
+    width: 70%;
+    margin-left: 0px;
+    margin-top: -20px;
+  }
+
+  .cardText {
+    font-size: 10px;
+    width: 100px;
+  }
+
+  .cardImg {
+    height: 50px;
+    width: 50px;
+  }
+  .waveBg {
+    width: 100vw;
+    margin: 60px 0 60px;
+  }
+  .trainerDetails {
+    height: 120px;
+    margin: 60px 0 120px;
+  }
+
+  .trainerImg {
+    width: 150px;
+  }
+  .imageDetail {
+    gap: 20px;
+  }
+  .trainerLogo {
+    width: 200px;
+  }
+
+  /* testimonial  */
+  .testimonial {
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .testimonialMsg {
+    font-size: 12px;
+  }
+  .userName {
+    font-size: 12px;
+  }
+  .userPost {
+    font-size: 10px;
+  }
+  .contactUsForm {
+    width: 80vw;
+    padding: 10px;
+  }
+  .inputHead {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+  .formInput {
+    font-size: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+  }
+  .descInput {
+    height: 60px;
+    margin-bottom: 15px;
+  }
+
+  /* footer */
+
+  .footer {
+    margin-top: 30px;
+    padding: 20px 0 40px;
+    /* height: 60vh; */
+  }
+
+  .footerInner {
+    padding: 30px;
+  }
+
+  .footerInner h3 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .footerButton {
+    padding: 10px;
+  }
+  .footerBottom {
+    flex-direction: column;
+  }
+}
